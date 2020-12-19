@@ -13,41 +13,41 @@ class Sidebar extends Component {
           </div>
           <ul className="nav">
             <li className="nav-item">
-              <NavLink className="nav-link" to='/dashboard'>
+              <NavLink className="nav-link" to='/about'>
                 <i className="nc-icon nc-chart-pie-35"></i>
                 <p>About</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/#'>
+              <NavLink className="nav-link" to='/geolocation'>
                 <i className="nc-icon nc-chart-pie-35"></i>
                 <p>Geolocation Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/#'>
+              <NavLink className="nav-link" to='/Rmap'>
                 <i className="nc-icon nc-circle-09"></i>
                 <p>R-based Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/#'>
+              <NavLink className="nav-link" to='/Districts'>
                 <i className="nc-icon nc-chart-pie-35"></i>
                 <p>Districts Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/#'>
+              <NavLink className="nav-link" to='/OccupancyRates'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>Occupations Rates</p>
+                <p>OccupancyRates</p>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to='/#'>
+              <NavLink className="nav-link" to='/FieldHospitals'>
                 <i className="nc-icon nc-circle-09"></i>
                 <p>Field Hospitals</p>
               </NavLink>
@@ -55,7 +55,7 @@ class Sidebar extends Component {
             
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/profile'>
+              <NavLink className="nav-link" to='/API'>
                 <i className="nc-icon nc-circle-09"></i>
                 <p>API</p>
               </NavLink>
@@ -64,7 +64,7 @@ class Sidebar extends Component {
 
 
             <li className="nav-item">
-              <NavLink className="nav-link" to='/profile'>
+              <NavLink className="nav-link" to='/PWA'>
                 <i className="nc-icon nc-circle-09"></i>
                 <p>PWA</p>
               </NavLink>
@@ -81,7 +81,7 @@ class Sidebar extends Component {
             <li className="nav-item">
               <NavLink className="nav-link" to='/profile'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>Team</p>
+                <p>Thanks to ...</p>
               </NavLink>
             </li>
 
