@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import About from './About';
 
 class Navbar extends Component {
   render() {
@@ -10,7 +11,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse justify-content-end" id="navigation">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to='/'>
+                <Link className="nav-link" to='/About'>
                   <span className="no-icon">About</span>
                 </Link>
               </li>

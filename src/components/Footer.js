@@ -16,7 +16,7 @@ class Footer extends Component {
 
             </ul>
             <p className="copyright text-center">
-              © 2019
+              © 2020
           </p>
           </nav>
         </div>

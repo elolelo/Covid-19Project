@@ -8,7 +8,7 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
           <div className="logo">
             <Link to='/' className="simple-text">
-            c-19 datastories South Africa
+            Covid-19 in South Africa
             </Link>
           </div>
           <ul className="nav">
@@ -22,34 +22,34 @@ class Sidebar extends Component {
             <li className="nav-item">
               <NavLink className="nav-link" to='/geolocation'>
                 <i className="nc-icon nc-chart-pie-35"></i>
-                <p>Geolocation Map</p>
+                <p>1. Geolocation Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to='/Rmap'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>R-based Map</p>
+                <p>2. R-based Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to='/Districts'>
                 <i className="nc-icon nc-chart-pie-35"></i>
-                <p>Districts Map</p>
+                <p>3. Districts Map</p>
               </NavLink>
             </li>
 
             <li className="nav-item">
               <NavLink className="nav-link" to='/OccupancyRates'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>OccupancyRates</p>
+                <p>4. Occupancy-Rates</p>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to='/FieldHospitals'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>Field Hospitals</p>
+                <p>5. Field Hospitals</p>
               </NavLink>
             </li>
             
@@ -57,7 +57,7 @@ class Sidebar extends Component {
             <li className="nav-item">
               <NavLink className="nav-link" to='/API'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>API</p>
+                <p>6. API</p>
               </NavLink>
             </li>
             
@@ -66,7 +66,7 @@ class Sidebar extends Component {
             <li className="nav-item">
               <NavLink className="nav-link" to='/PWA'>
                 <i className="nc-icon nc-circle-09"></i>
-                <p>PWA</p>
+                <p>7. PWA</p>
               </NavLink>
             </li>
 
