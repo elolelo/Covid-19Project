@@ -472,7 +472,7 @@ body>.navbar-collapse .nav li:hover .nav-link {
 body>.navbar-collapse .nav li.active .nav-link {
     color: #FFFFFF;
     opacity: 1;
-    background: rgba(255, 255, 255, 0.23);
+    background: rgba(40, 65, 206, 0.23);
 }
 
 .sidebar .nav li.separator,
@@ -585,12 +585,12 @@ body>.navbar-collapse:before {
 .sidebar:after,
 body>.navbar-collapse:after {
     background: #292dfa;
-    background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
+    background: -moz-linear-gradient(top, #2749e2 0%, #2749e2 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-    background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-    background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
+    background: -webkit-linear-gradient(top, #2749e2 0%, #2749e2 100%);
+    background: -o-linear-gradient(top, #2749e2 0%, #2749e2 100%);
+    background: -ms-linear-gradient(top, #2749e2 0%, #2749e2 100%);
+    background: linear-gradient(to bottom, #2749e2 0%, #2749e2 100%);
     background-size: 150% 150%;
     z-index: 3;
     opacity: 1;

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Dashboard from './Dashboard'
 import UserProfile from './UserProfile'
 import Publications from './Publications'
 import Geolocation from './Geolocation';
@@ -22,7 +21,6 @@ class Main extends Component {
       <div className="main-panel">
         <Navbar />
         <Switch>
-          <Route path="/dashboard" component={Dashboard} />
           <Route path="/profile" component={UserProfile} />
           <Route path="/publications" component={Publications} />
           <Route path="/geolocation" component={Geolocation} />
@@ -34,7 +32,7 @@ class Main extends Component {
           <Route path="/Rmap" component={Rmap} />
           <Route path="/API" component={API} />
           {/* <Route path="/profi" component={UserProfile} /> */}
-          <Redirect from='*' to='/dashboard' />
+          <Redirect from='*' to='/about' />
         </Switch>
         <Footer />
       </div>

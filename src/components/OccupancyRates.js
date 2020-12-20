@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 class OccupancyRates extends Component {
   render() {
     return (
-      <h1>Occupancy Rates to be added soon</h1>
+      <h1>Occupancy Rates to be added soon, something like this : https://www.datawrapper.de/maps/ . something like https://www.covidcaremap.org/maps/us-healthcare-system-capacity/#3.5/38/-96</h1>
     )
   }
 }
