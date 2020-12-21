@@ -18,36 +18,37 @@ class UserProfile extends Component {
                 <div className="card-image">
                   <img src="../assets/img/oad.jpeg" alt="oad" />
                 </div>
-                <div className="card-body">
                   <p className="description text-center">
-                    "Lamborghini Mercy
-                      <br /> Your chick she so thirsty
-                      <br /> I'm in that two seat Lambo"
+                    OAD/ AIU
+                      <br /> For financially supporting this project
+                     <br>
+                     </br>
+                     <hr></hr>
                       <button className="btn btn-simple btn-link btn-icon">
                     <i className="fa fa-twitter"></i>
                   </button>
                   </p>
-                </div>
-               
               </div>
             </div>
+
             <div className="col-md-6">
               <div className="card card-user">
                 <div className="card-image">
-                  <img src="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400" alt="..." />
+                  <img src="../assets/img/oad.jpeg" alt="oad" />
                 </div>
-                <div className="card-body">
                   <p className="description text-center">
-                    "Lamborghini Mercy
-                      <br /> Your chick she so thirsty
-                      <br /> I'm in that two seat Lambo"
+                    Google 
+                      <br /> For providing the language translation widget
+                     <br>
+                     </br>
+                     <hr></hr>
                       <button className="btn btn-simple btn-link btn-icon">
                     <i className="fa fa-twitter"></i>
                   </button>
                   </p>
-                </div>
               </div>
             </div>
+        
             
 
             <div className="col-md-4">
@@ -78,7 +79,7 @@ class UserProfile extends Component {
                   <div className="author">
                     <Link to='/'>
                       <img className="avatar border-gray" src={face2} alt="..." />
-                      <h5 className="title"><a href="https://afrimapr.github.io/afrimapr.website/" target="blank">Afrimapr</a></h5>
+                     <h5 className="title"><a href="https://afrimapr.github.io/afrimapr.website/" target="blank">Afrimapr</a></h5>
                     </Link>
                     <p className="description">
                       Anelda van der Walt and Dr. Andy South 
@@ -113,7 +114,7 @@ class UserProfile extends Component {
                      <hr></hr>
                       <br></br>  Tess Kerins 
                       <button className="btn btn-simple btn-link btn-icon">
-                    <a href="" target="blank" className="fa fa-twitter"></a>
+                    <a href="https://twitter.com/TessKerins" target="blank" className="fa fa-twitter"></a>
                   </button>
                      <br></br>
                     </p>
