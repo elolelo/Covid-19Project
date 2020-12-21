@@ -15,21 +15,18 @@ class Publications extends Component {
                 </div>
                 <div className="card-body ">
                   <div className="legend">
-                    <i className="fa fa-circle text-info"></i> Open
-                                        <i className="fa fa-circle text-danger"></i> Bounce
-                                        <i className="fa fa-circle text-warning"></i> Unsubscribe
+                  <i className="fa fa-file-text-o"></i> Blog post 1 by Data Science for Social Impact
+                    <h4 ></h4><a href="https://dsfsi.github.io/blog/mapping-healthsystem/" target="blank">Mapping the South African Health Facility landscape in response to Covid-19</a>
+                                       
+                                       
                                     </div>
+                
                   <hr />
                   <div className="legend">
-                    <i className="fa fa-circle text-info"></i> Open
-                                        <i className="fa fa-circle text-danger"></i> Bounce
-                                        <i className="fa fa-circle text-warning"></i> Unsubscribe
-                                    </div>
-                  <hr />
-                  <div className="legend">
-                    <i className="fa fa-circle text-info"></i> Open
-                                        <i className="fa fa-circle text-danger"></i> Bounce
-                                        <i className="fa fa-circle text-warning"></i> Unsubscribe
+                  <i className="fa fa-file-text-o"></i> Blog post 2 by Afrimapr
+                    <h4 ></h4><a href="https://afrimapr.github.io/afrimapr.website/blog/2020/visualisation-to-improve-data-quality/" target="blank">How an R-map visualization has helped to improve the state of the SA health facilities data in the covid19za repository</a>
+                                       
+                                       
                                     </div>
                   <hr />
                 
@@ -40,7 +37,7 @@ class Publications extends Component {
               <div className="card">
                 <div className="card-header ">
                   <h4 className="card-title">KDD humanitarian workshop paper</h4>
-                  <p className="card-category">24 Hours performance</p>
+                  <p className="card-category"><a href="https://kdd-humanitarian-mapping.herokuapp.com/" target="blank">About the workshop</a></p>
                 </div>
                 <Iframe url="https://arxiv.org/pdf/2006.15216.pdf"
                   width="100%"

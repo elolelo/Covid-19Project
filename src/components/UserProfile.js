@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import face1 from "../assets/img/faces/face-1.jpg"
 import face2 from "../assets/img/faces/face-2.jpg"
 import face3 from "../assets/img/faces/face-3.jpg"
-// import Geolocation from './Geolocation';
+import face4 from "../assets/img/faces/face-4.jpg"
+import face5 from "../assets/img/faces/face-5.jpg"
+
 
 class UserProfile extends Component {
   render() {
@@ -16,7 +18,8 @@ class UserProfile extends Component {
           <div className="col-md-6">
               <div className="card card-user">
                 <div className="card-image">
-                  <img src="../assets/img/oad.jpeg" alt="oad" />
+                <img className="avatar border-gray" src={face4} alt="..." />
+                <br></br>
                 </div>
                   <p className="description text-center">
                     OAD/ AIU
@@ -25,7 +28,7 @@ class UserProfile extends Component {
                      </br>
                      <hr></hr>
                       <button className="btn btn-simple btn-link btn-icon">
-                    <i className="fa fa-twitter"></i>
+                    <a href="https://twitter.com/Astro4Dev" target="blank" className="fa fa-twitter"></a>
                   </button>
                   </p>
               </div>
@@ -34,7 +37,8 @@ class UserProfile extends Component {
             <div className="col-md-6">
               <div className="card card-user">
                 <div className="card-image">
-                  <img src="../assets/img/oad.jpeg" alt="oad" />
+                <img className="avatar border-gray" src={face5} alt="..." />
+                <br></br>
                 </div>
                   <p className="description text-center">
                     Google 
@@ -43,7 +47,7 @@ class UserProfile extends Component {
                      </br>
                      <hr></hr>
                       <button className="btn btn-simple btn-link btn-icon">
-                    <i className="fa fa-twitter"></i>
+                    <a href="https://twitter.com/Google" target="blank" className="fa fa-twitter"></a>
                   </button>
                   </p>
               </div>
@@ -58,10 +62,10 @@ class UserProfile extends Component {
                   <div className="author">
                     
                       <img className="avatar border-gray" src={face1} alt="..." />
-                      <h5 className="title"><a href="" target="blank" >University of Pretoria's Data Science for Social Impact</a></h5>
+                      <h5 className="title"><a href="https://datastudio.google.com/u/0/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534/page/hrUIB" target="blank" >University of Pretoria's Data Science for Social Impact</a></h5>
                    
                     <p className="description">
-                      Dr Vukosi Marivate and Herkulaas Combrink
+                      Dr. Vukosi Marivate and Herkulaas Combrink
                     </p>
                     <hr />
                     <button className="btn btn-simple btn-link btn-icon">

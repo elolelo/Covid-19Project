@@ -7,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg " color-on-scroll="500">
         <div className="container-fluid">
-          <p className="navbar-brand" href="/"> In response to COVID-19</p>
+          <h4 className="navbar-brand" > OAD-funded project. Led by <a href="https://twitter.com/Nompu_me_lelo" target="blank">Nompumelelo Mtsweni</a></h4>
           
         </div>
       </nav>
