@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 // import About from './About';
 
 class Navbar extends Component {
@@ -6,7 +7,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg " color-on-scroll="500">
         <div className="container-fluid">
-          <p className="navbar-brand" href="/">Collecting and visualising healthcare facility data for South Africa in response to COVID-19</p>
+          <p className="navbar-brand" href="/"> In response to COVID-19</p>
           
         </div>
       </nav>

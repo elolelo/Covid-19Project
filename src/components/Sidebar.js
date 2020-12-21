@@ -8,7 +8,7 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
           <div className="logo">
             <Link to='/' className="simple-text">
-            Covid-19 in South Africa
+            Healthcare facility data for South Africa
             </Link>
           </div>
           <ul className="nav">

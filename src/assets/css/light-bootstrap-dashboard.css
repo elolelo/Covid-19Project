@@ -1,15 +1,11 @@
 /*=========================================================
  Light Bootstrap Dashboard - v2.0.1
 =========================================================
-
  Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard
  Copyright 2019 Creative Tim (https://www.creative-tim.com)
  Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE)
-
  Coded by Creative Tim
-
 =========================================================
-
  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*/
  
 /*      light colors         */
@@ -2431,7 +2427,6 @@ fieldset[disabled] .form-control {
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
-
 Copyright (c) 2015 Daniel Eden
 */
 
@@ -4715,10 +4710,8 @@ Copyright (c) 2015 Daniel Eden
 }
 
 /*--------------------------------
-
 nucleo-icons Web Font - built using nucleoapp.com
 License - nucleoapp.com/license/
-
 -------------------------------- */
 
 @font-face {
@@ -5309,5 +5302,3 @@ License - nucleoapp.com/license/
 .nc-zoom-split::before {
     content: "\ea64";
 }
-
-/* all icon font classes list here */
