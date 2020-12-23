@@ -22,7 +22,7 @@ class UserProfile extends Component {
                 <br></br>
                 </div>
                   <p className="description text-center">
-                    OAD/ AIU
+                  <strong>International Astronomical Union - Office of Astronomy for Development</strong><br></br>
                       <br /> For financially supporting this project
                      <br>
                      </br>
@@ -41,7 +41,8 @@ class UserProfile extends Component {
                 <br></br>
                 </div>
                   <p className="description text-center">
-                    Google 
+                    <strong>Google</strong> 
+                    <br></br>
                       <br /> For providing the language translation widget
                      <br>
                      </br>
